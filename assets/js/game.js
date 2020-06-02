@@ -124,7 +124,7 @@ var getPlayerName = function () {
   // ADD LOOP HERE WITH PROMPT AND CONDITION
   // ************************************
   while (name === "" || name === null) {
-    name = prompt("What is your robot's name?");
+    name = window.prompt("What is your robot's name?");
   }
 
   console.log("Your robot's name is " + name);
